@@ -39,7 +39,11 @@ pip install -r requirements.txt
 В активованому віртуальному середовищі запустіть наступні команди для міграції бази даних та створення суперкористувача:
 ```bash
 python manage.py makemigrations
+```
+```bash
 python manage.py migrate
+```
+```bash
 python manage.py createsuperuser
 ```
 ### 5. Запуск бота для заповнення бази даних
