@@ -46,7 +46,12 @@ python manage.py migrate
 ```bash
 python manage.py createsuperuser
 ```
-### 5. Запуск бота для заповнення бази даних
+### 5. Запуск проекту
+У корені проекту виконайте наступну команду для запуску локального сервера:
+```bash
+python manage.py runserver
+```
+### 6. Запуск бота для заповнення бази даних
 У корені проекту виконайте наступну команду для запуску бота, який заповнить базу даних:
 ```bash
 python manage.py runscript StarNaviTestTask.bot.bot
