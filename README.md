@@ -54,6 +54,6 @@ python manage.py runserver
 ### 6. Запуск бота для заповнення бази даних
 У корені проекту виконайте наступну команду для запуску бота, який заповнить базу даних:
 ```bash
-python manage.py runscript StarNaviTestTask.bot.bot
+python manage.py runscript bot.bot
 ```
 Тепер ваш Django проект готовий до роботи на іншому комп'ютері!
