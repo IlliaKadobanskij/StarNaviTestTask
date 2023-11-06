@@ -11,7 +11,7 @@
 Спочатку склонуйте цей репозиторій на свій комп'ютер:
 
 ```bash
-git clone <URL вашого репозиторію на GitHub>
+git clone https://github.com/IlliaKadobanskij/StarNaviTestTask.git
 ```
 
 ### 2. Створення віртуального середовища (venv)
